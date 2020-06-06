@@ -57,5 +57,5 @@
     "matchdep": "^2.0.0",
     "grunt-contrib-jasmine": "^1.0.3"
   },
-  "homepage": "src/index.html"
+  "homepage": "examples/index.html"
 }
