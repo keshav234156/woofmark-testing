@@ -5,7 +5,9 @@
   "main": "dist/PublicLab.Editor.js",
   "scripts": {
     "build": "grunt build",
-    "test": "grunt jasmine"
+    "test": "grunt jasmine",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -31,6 +33,7 @@
     "crossvent": "1.5.5",
     "domador": "2.4.4",
     "font-awesome": "~4.7.0",
+    "gh-pages": "^3.0.0",
     "grow-textarea": "git://github.com/jywarren/grow.git#d54141c9456343f14cc6c935faa0915af09eb669",
     "jquery": "~3",
     "leaflet": "^1.6.0",
@@ -54,5 +57,5 @@
     "matchdep": "^2.0.0",
     "grunt-contrib-jasmine": "^1.0.3"
   },
-  "homepage": "https://github.com/publiclab/PublicLab.Editor#readme"
+  "homepage": "src/inex.html"
 }
